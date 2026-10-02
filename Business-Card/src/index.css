@@ -1,0 +1,150 @@
+*{
+    box-sizing: none;
+}
+body{
+    background-color: rgb(26, 26, 27)
+}
+.main-container{
+    height: 868px;
+    width: 550px;
+    background-color: #23252C;
+    margin: auto;
+}
+.container{
+    height: 780px;
+    width: 317px;
+    background-color: #1A1B21;
+    position: relative;
+    left: 116px;
+    top: 44px;
+   
+    border-radius: 16px;
+    
+}
+img{
+    width: 317px;
+    height: 317px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.picture{
+    height: 317px;
+    width: 317px;
+    
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.description{
+    height: 399px;
+    width: 317px;
+    background-color: #1A1B21;
+}
+.info{
+    color: white;
+    text-align: center;
+}
+
+.buttons{
+    height: 34px;
+    width: 317px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    
+}
+
+.btn{
+    height: 34px;
+    width: 115px;
+    border-radius: 6px;
+    display: relative;
+    top: 468px;
+    left: 151px;
+    
+    
+}
+
+.email{
+    background-color: white;
+    border: 1px solid #D1D5DB;
+    color: #23252C;
+    
+}
+
+.linkedin{
+    background-color: #5093E2;
+    
+}
+
+.btn i {
+  font-size: 16px;
+  margin: 9px 72.5px 9px 26.5px;
+ 
+}
+
+.btn i span{
+    color: white;
+    margin-left: 8px;
+}
+
+.developer{
+    margin-top: 0px;
+    margin-bottom: 8.81px;
+    color:yellow;
+}
+.description>h1{
+    margin-bottom: 6.19px;
+    margin-top:21px;
+}
+.mail{
+    margin-top:8.1px;
+    
+}
+
+p>a{
+    margin-bottom: 15px;
+}
+
+.about{
+    height: 201px;
+    width: 247px;
+    position: relative;
+    top: 33px;
+    left: 36px;
+    color: white;
+    margin-top: -20px;
+
+}
+
+.footer{
+    width: 317px;
+    height: 64px;
+    background-color: #161619;
+    margin-top: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.about h1{
+    font-size:16px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.about p{
+    font-size:14px;
+    line-height:120%;
+    letter-spacing:2%;
+    margin-top:0px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 1rem;
+    color:white;
+    font-size: 30px;
+}
