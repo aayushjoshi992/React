@@ -1,0 +1,11 @@
+*{
+    box-sizing: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    background-color: rgba(197, 98, 85, 0.89);
+    height: 60px;
+    width: 100%;
+}
