@@ -5,7 +5,24 @@
 }
 
 .nav{
-    background-color: rgba(197, 98, 85, 0.89);
-    height: 60px;
-    width: 100%;
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 55px;
+}
+
+.globe{
+    width: 24px;
+    margin-right: 7px;
+}
+.nav p{
+    margin-left: 16px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: white;
+    font-family: Inter;
+
+
 }
