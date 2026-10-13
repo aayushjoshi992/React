@@ -1,6 +1,7 @@
 import {createRoot} from "react-dom/client"
-import Nav from "./app.jsx"
+import App from "./app.jsx"
+
 
 createRoot(document.querySelector("#root")).render(
-    <Nav/>
+    <App/>
 )
